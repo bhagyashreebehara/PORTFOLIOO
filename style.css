@@ -72,7 +72,7 @@ a:after {
     height: 4px;
     width: 0;
     bottom: -1rem;
-    border-radius: 5px;
+    border-radius: 6px;
 
 }
 .navbar a:hover:after{
