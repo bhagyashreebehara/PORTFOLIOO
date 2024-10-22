@@ -307,7 +307,7 @@ span{
     opacity: scale(0.7);
 }
 .works-card:hover img { 
-   transform: scale(1.1);
+   transform: scale(1.2);
 }
 .works-card .works-layer {
     position: absolute;
