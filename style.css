@@ -130,9 +130,6 @@ a:after {
     60%,80%{
       content: "Web Developer";
     }
-    80%,100%{
-      content: "app Developer";
-    }
     
 }
 
@@ -330,6 +327,8 @@ span{
 }
 .works-layer h4 {
     font-size: 3rem;
+    color: #fff;
+
 }
 .works-layer p {
     font-size: 1.6rem;
