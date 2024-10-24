@@ -296,6 +296,7 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    border: 3px solid #3BAFEA;
 }
 .works-card img{
     width: 100%;
