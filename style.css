@@ -156,7 +156,7 @@ span{
 .home-img img{
     border-radius: 60%;
     border: 8px solid #3BAFEA;
-    height: 400px;
+    height: 450px;
     width: 30vw;
     margin: -4%;
     animation: floatImage 4s ease-in-out infinite;
