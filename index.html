@@ -126,10 +126,20 @@
 </section>
 
 <!-------WORKS SECTION------------------->
+
+
 <section class="works" id="works">
     <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="filteration">
+     <button class="active" data-name="All" onclick="filterSelection('All')">All</button>
+     <button data-name="Developing" onclick="filterSelection('Developing')">Developing</button>
+     <button data-name="Designing" onclick="filterSelection('Designing')">Designing</button>
+     <button data-name="Figma" onclick="filterSelection('Figma')">Figma</button>
+   </div>
+    <br>
+    <br>
     <div class="works-container">
-    <div class="works-card">
+    <div class="works-card" data-name="Developing">
         <img src="./images/htmll.jpg" alt="download.jpg">
         <div class="works-layer">
             <h4>HTML WEBLAYOUT</h4>
@@ -137,7 +147,7 @@
             <a href=" https://bhagyashreebehara.github.io/Bhagyashreebehara/"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Developing">
         <img src="./images/script.jpg" alt="">
         <div class="works-layer">
             <h4>JAVA SCRIPT</h4>
@@ -146,15 +156,15 @@
             
         </div>
     </div>
-    <div class="works-card">
-        <img src="" alt="">
+    <div class="works-card" data-name="Developing">
+        <img src="./images/react.jpg" alt="">
         <div class="works-layer">
             <h4>REACT</h4>
             <p></p>
-            <a href="#home"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <a href=" https://bhagyashreebehara.github.io/reacts/"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/Artboard 2.jpg" alt="">
         <div class="works-layer">
             <h4>FLYER-1</h4>
@@ -162,7 +172,7 @@
             <a href="./images/Artboard 2.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/Artboard 1.jpg" alt="">
         <div class="works-layer">
             <h4>FLYER-2</h4>
@@ -170,7 +180,7 @@
             <a href="./images/Artboard 1.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/POSTER-1.jpg" alt="">
         <div class="works-layer">
             <h4>POSTER-1</h4>
@@ -178,7 +188,7 @@
             <a href="./images/POSTER-1.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/flyer3.jpg" alt="">
         <div class="works-layer">
             <h4>POSTER-2</h4>
@@ -186,7 +196,7 @@
             <a href="./images/flyer3.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/basketball.jpeg" alt="">
         <div class="works-layer">
             <h4>POSTER-3</h4>
@@ -194,7 +204,7 @@
             <a href="./images/b-3 Basketballposter (1).png"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/wacth.jpeg" alt="">
         <div class="works-layer">
             <h4>POSTER-4</h4>
@@ -202,7 +212,7 @@
             <a href="./images/b-4 Watchposter (1).png"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
         <img src="./images/pancake.jpeg" alt="">
         <div class="works-layer">
             <h4>POSTER-5</h4>
@@ -210,7 +220,15 @@
             <a href="./images/b-5 Pancake Poster (1).png"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Designing">
+        <img src="" alt="">
+        <div class="works-layer">
+            <h4>Weblayout Design</h4>
+            <p></p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="works-card" data-name="Developing">
         <img src="./images/WPWO.jpeg" alt="">
         <div class="works-layer">
             <h4>WORDPRESS<h4>
@@ -218,7 +236,7 @@
             <a href="https://dev-bsbstatic.pantheonsite.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Developing">
         <img src="./images/WP.jpeg" alt="">
         <div class="works-layer">
             <h4>WOOCOMMERCE</h4>
@@ -226,7 +244,7 @@
             <a href="https://dev-bhagyawordpress.pantheonsite.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Figma">
         <img src="" alt="">
         <div class="works-layer">
             <h4>FIGMA (MOBILE APP)</h4>
@@ -234,7 +252,7 @@
             <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
     </div>
-    <div class="works-card">
+    <div class="works-card" data-name="Figma">
         <img src="" alt="">
         <div class="works-layer">
             <h4>FIGMA (WEB APPLICATION)</h4>
