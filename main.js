@@ -18,30 +18,6 @@ function filterSelection(category) {
         }
       }
     }
-
-    // Toggle active class for buttons
-    const buttons = document.getElementsByClassName('filteration')[0].getElementsByTagName('button');
-    for (let button of buttons) {
-      if (button.getAttribute('data-name') === category) {
-        button.classList.add('active');
-      } else {
-        button.classList.remove('active');
-      }
-    }
   }
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontent = document.getElementsByClassName("tab-content");
-  function opentab(tabname,element){
-      for( let tablink of tablinks){
-          tablink.classList.remove("active-link");
-
-      }
-      for( let tabcontent of tabcontents){
-          tabcontent.classList.remove("active-tab");
-          
-      }
-      element.classList.add("active-link");
-      document.getElementById(tabname).classList.add("active-tab");
-     
-  }
+  
 
