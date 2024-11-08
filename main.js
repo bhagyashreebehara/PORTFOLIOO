@@ -29,52 +29,19 @@ function filterSelection(category) {
       }
     }
   }
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontent = document.getElementsByClassName("tab-content");
+  function opentab(tabname,element){
+      for( let tablink of tablinks){
+          tablink.classList.remove("active-link");
 
-/*function filterSelection(category) {
-    var cards = document.getElementsByClassName("card");
-  
-    if (category == "all") {
-      // Show all cards
-      for (var i = 0; i < cards.length; i++) {
-        cards[i].style.display = "block";
       }
-    } else {
-      // Hide cards not in the selected category and show those that are
-      for (var i = 0; i < cards.length; i++) {
-        var dataName = cards[i].getAttribute("data-name");
-        if (dataName == category) {
-          cards[i].style.display = "block";
-        } else {
-          cards[i].style.display = "none";
-        }
+      for( let tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+          
       }
-    }
-  }*/
-  
+      element.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+     
+  }
 
-/*document.addEventListener("DOMContentLoaded", function() {
-    const filterButtons = document.querySelectorAll(".filter button");
-    const filterableCards = document.querySelectorAll(".filterable_Cards .card");
-
-    const filterCards = (category) => {
-        filterableCards.forEach(card => {
-            const cardCategory = card.dataset.name;
-            const parentCol = card.closest('.col-3');
-            
-            if (category === 'all' || category === cardCategory) {
-                parentCol.classList.remove("hide");
-            } else {
-                parentCol.classList.add("hide");
-            }
-        });
-    };
-
-    filterButtons.forEach(button => {
-        button.addEventListener("click", function() {
-            const category = this.dataset.name;
-            filterCards(category);
-            document.querySelector(".active").classList.remove("active");
-            this.classList.add("active");
-        });
-    });
-});*/
