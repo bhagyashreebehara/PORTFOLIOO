@@ -229,12 +229,10 @@ span{
     width: 40vw;
     border: 3px solid #59B2F4;
 }
-.about-imgimg{
-    border-radius: 10px;
+.img {
     height: 300px;
-    width: 60vw;
-    border: 3px solid #59B2F4;
 }
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
