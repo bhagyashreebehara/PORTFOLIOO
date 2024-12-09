@@ -223,14 +223,11 @@ span{
     gap: 5rem;
     background: var(--snd-bg-color);
 }
-.about-img {
+.about-img .img{
     border-radius: 10px;
     height: 300px;
     width: 40vw;
     border: 3px solid #59B2F4;
-}
-.img {
-    height: 300px;
 }
 
 .heading {
